@@ -1,0 +1,57 @@
+# Co-Thinking Agent Simulation System Requirements
+# Core dependencies for running the simulation system
+
+# LLM API Integration
+google-generativeai>=0.8.0
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration Management
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Async Support
+asyncio-throttle>=1.0.0
+aiohttp>=3.8.0
+
+# Data Structures and Serialization
+dataclasses-json>=0.6.0
+
+# Regular Expressions (enhanced functionality)
+regex>=2023.10.0
+
+# Date/Time handling
+python-dateutil>=2.8.0
+
+# Text Processing
+nltk>=3.8.0
+
+# Export Formats
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Visualization (Optional but recommended)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Statistical Analysis (Optional)
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Interactive Visualization (Optional)
+plotly>=5.15.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Logging and Debugging (enhanced)
+colorlog>=6.7.0
+
+# System utilities
+psutil>=5.9.0
+
+# JSON handling (enhanced)
+orjson>=3.9.0 

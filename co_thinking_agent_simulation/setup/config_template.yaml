@@ -1,0 +1,203 @@
+# Co-Thinking Agent Simulation Configuration Template
+# Copy this file to config.yaml and customize for your research needs
+
+# API Configuration
+api_keys:
+  # Get your Gemini API key from: https://makersuite.google.com/app/apikey
+  gemini: "your-gemini-api-key-here"
+  
+  # Optional: Add other LLM providers
+  # openai: "your-openai-api-key"
+  # anthropic: "your-anthropic-api-key"
+
+# Simulation Configuration
+simulation:
+  # Default number of agents to create
+  default_agents: 20
+  
+  # Research context for agent profiles
+  # Options: "university_diverse", "high_school_multicultural", "adult_learners", "k12_mixed"
+  research_context: "university_diverse"
+  
+  # Default LLM model to use
+  default_model: "gemini-pro"
+  
+  # Rate limiting (requests per minute)
+  rate_limit: 60
+  
+  # Concurrent agent processing
+  max_concurrent: 10
+
+# Agent Profile Configuration
+profiles:
+  # Cultural distribution customization
+  cultural_templates:
+    - "US_Individualistic"
+    - "East_Asian_Collectivistic" 
+    - "European_Balanced"
+    - "Latin_American"
+    - "Middle_Eastern"
+    - "African_Community"
+  
+  # Age range by research context
+  age_ranges:
+    university_diverse: [18, 25]
+    high_school_multicultural: [14, 18]
+    adult_learners: [25, 65]
+    k12_mixed: [8, 18]
+  
+  # Socioeconomic distribution
+  ses_distribution:
+    - "Low_Income"
+    - "Lower_Middle_Class"
+    - "Middle_Class"
+    - "Upper_Middle_Class"
+    - "High_Income"
+  
+  # Language proficiency levels
+  english_proficiency_levels:
+    - "Native"
+    - "Advanced"
+    - "Intermediate"
+    - "Beginner"
+
+# Foundation Document Integration
+foundation_documents:
+  # Enable/disable each foundation document
+  mollick_co_intelligence: true
+  swiss_ai_principles: true
+  people_factor: true
+  
+  # Custom foundation document paths
+  custom_documents: []
+  
+  # Validation thresholds
+  alignment_threshold: 0.7  # Minimum alignment score with foundation principles
+
+# Research Scenarios
+scenarios:
+  # Built-in scenario types
+  available_types:
+    - "cognitive_partnership"
+    - "trust_calibration"
+    - "agency_distribution"
+    - "metacognitive_awareness"
+    - "cognitive_load_management"
+  
+  # Default scenario settings
+  default_duration: 30  # minutes
+  include_followup: true
+  record_thinking_process: true
+
+# Data Collection and Export
+export:
+  # Directory for simulation data
+  data_directory: "./simulation_data"
+  
+  # Export formats
+  formats:
+    - "json"
+    - "csv"
+    - "xlsx"
+  
+  # Include metadata in exports
+  include_metadata: true
+  
+  # Include raw LLM responses
+  include_raw_responses: true
+  
+  # Include agent profiles in exports
+  include_profiles: true
+  
+  # Anonymization settings
+  anonymize_data: false
+  agent_id_prefix: "AGENT_"
+
+# Analysis Configuration
+analysis:
+  # Enable automatic analysis
+  auto_analyze: true
+  
+  # Analysis types to run
+  analysis_types:
+    - "diversity_metrics"
+    - "foundation_alignment"
+    - "construct_patterns"
+    - "cultural_differences"
+  
+  # Statistical analysis settings
+  significance_level: 0.05
+  multiple_comparisons_correction: "bonferroni"
+
+# Validation and Quality Control
+validation:
+  # Minimum response length (words)
+  min_response_length: 20
+  
+  # Maximum response length (words)
+  max_response_length: 500
+  
+  # Response quality checks
+  check_coherence: true
+  check_cultural_consistency: true
+  check_foundation_alignment: true
+  
+  # Retry settings for failed validations
+  max_retries: 3
+  retry_delay: 2  # seconds
+
+# Logging and Monitoring
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR
+  level: "INFO"
+  
+  # Log file location
+  file: "./logs/simulation.log"
+  
+  # Enable API usage tracking
+  track_api_usage: true
+  
+  # Enable performance monitoring
+  monitor_performance: true
+
+# Cost Management
+cost_management:
+  # Maximum cost per simulation run (USD)
+  max_cost_per_run: 50.0
+  
+  # Cost tracking
+  track_costs: true
+  
+  # Cost alerts
+  cost_alert_threshold: 25.0
+  
+  # Estimated cost per agent (USD)
+  estimated_cost_per_agent: 0.10
+
+# Research Ethics
+ethics:
+  # Require ethical review before running
+  require_ethics_review: false
+  
+  # Data retention period (days)
+  data_retention_days: 365
+  
+  # Privacy settings
+  privacy_mode: false
+  
+  # Consent simulation (for training)
+  simulate_consent_process: false
+
+# Development and Testing
+development:
+  # Debug mode
+  debug: false
+  
+  # Test mode (use smaller agent counts)
+  test_mode: false
+  
+  # Mock API responses (for testing without API costs)
+  mock_responses: false
+  
+  # Verbose output
+  verbose: false 
