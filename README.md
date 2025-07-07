@@ -2,6 +2,10 @@
 
 A comprehensive research platform for studying psychological foundations of human-AI collaboration in educational contexts, featuring advanced agent simulation and automated data analysis.
 
+- [ ] How the grounded Theory can help devlopping research in collaboration with AI?
+https://www.tandfonline.com/doi/abs/10.1080/07421222.2024.2415772
+
+
 ## 🆕 **NEW: Comprehensive Data Analysis System**
 
 **Every participant response is automatically recorded, analyzed for quality and theoretical alignment, and exported in research-ready formats with detailed insights.**
