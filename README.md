@@ -404,7 +404,7 @@ The People Factor. (2023). *A human-centred approach to scaling AI tools*. [Whit
 
 ### Research Papers Integrated
 
-Schröder, S., Morgenroth, T., Kuhl, U., Vaquet, V., & Paaßen, B. (2024). Large language models do not simulate human psychology. *Preprint*.
+Schröder, S., Morgenroth, T., Kuhl, U., Vaquet, V., & Paaßen, B. (2024). Large language models do not simulate human psychology. *Preprint*. https://arxiv.org/pdf/2508.06950v3
 
 van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). Reclaiming AI as a theoretical tool for cognitive science. *Computational Brain & Behavior*, *7*, 616–636. https://doi.org/10.1007/s42113-024-00217-5
 
