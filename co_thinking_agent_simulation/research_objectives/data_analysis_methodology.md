@@ -62,12 +62,26 @@ Automatic identification of:
 - **Trust Calibration**: Trust and reliability indicators
 - **Agency Distribution**: Control and decision-making references
 - **Metacognitive Awareness**: Understanding and learning language
+- **Skepticism and Verification**: Language indicating questioning, checking, or doubting AI.
+- **Ethical and Societal Trust**: Mentions of fairness, privacy, bias, or the AI's perceived benevolence.
 - **Cognitive Load Management**: Difficulty and effort indicators
 
 #### Behavioral Pattern Recognition
 - Question types (factual, help-seeking, confirmation, clarification)
 - Emotional indicators (excitement, anxiety, confidence, confusion)
 - Response categories (appreciative, uncertain, questioning, reflective)
+
+### Cognitive Bias and Ethical Alignment Analysis
+
+#### Cognitive Bias Analysis
+- **Bias Detection**: Automated classifiers to identify instances of confirmation bias, automation bias, Dunning-Kruger effect, and anchoring in agent responses.
+- **Correlation Analysis**: Examine relationships between the frequency of cognitive biases and learning outcomes, task performance, and co-thinking effectiveness.
+- **Profile-based Analysis**: Compare bias prevalence across different agent profiles (e.g., novice vs. expert, high vs. low metacognitive awareness).
+
+#### Ethical Alignment Analysis
+- **AI Tutor Fairness Audit**: Measure the sentiment, quality, and actionability of AI feedback across different simulated demographic groups to detect any systematic biases.
+- **Ethical Scenario Testing**: Analyze AI Tutor and student agent responses in scenarios designed to present ethical dilemmas, evaluating them against the Swiss AI principles.
+- **Equity Impact**: Assess how co-thinking dynamics might widen or narrow performance gaps between different student profiles.
 
 ## Comprehensive Analysis Framework
 

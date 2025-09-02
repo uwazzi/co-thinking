@@ -139,12 +139,23 @@ Based on the foundational documents, co-thinking with AI involves several psycho
 - **Grounded theory** approach for emerging constructs
 - **Member checking** for validity
 
+### Phase 6: Limitations of Simulation
+- **Psychological Fidelity**: Acknowledge that LLM agents simulate human-like *behavior* but do not replicate genuine psychological processes, emotions, or consciousness. The goal is behavioral equivalence, not psychological identity.
+- **Generalizability**: Findings from the simulation must be cautiously interpreted and require validation with human participants. The simulation is a tool for hypothesis generation and protocol testing, not a substitute for real-world research.
+- **Model Bias**: The simulation's behavior is constrained by the biases inherent in the training data of the underlying LLMs.
+
+### Phase 7: Ethical Considerations
+- **Data Privacy**: Although data is simulated, protocols for handling sensitive data will be designed to align with standards for human participant research.
+- **Algorithmic Bias**: The AI Tutor will be continuously monitored for biases in feedback and interaction patterns across different simulated student profiles.
+- **Equity**: Research will explore how co-thinking tools can be designed to support all learners and mitigate the risk of creating new educational inequalities.
+
 ### Expected Outcomes & Applications
 
 #### Theoretical Contributions
 - Model of psychological factors in educational AI co-thinking
 - Framework for measuring human-AI collaborative learning
 - Understanding of developmental differences in AI collaboration
+- A computational cognitive model for co-thinking that can be tested and refined.
 
 #### Practical Applications
 - Design principles for educational AI systems

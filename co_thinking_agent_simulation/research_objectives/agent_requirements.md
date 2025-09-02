@@ -27,6 +27,12 @@ Design an AI agent system using LLMs (Gemini, GPT, Claude) to simulate student p
 - Metacognitive awareness levels
 - Risk tolerance in learning
 
+**Cognitive Biases (to simulate psychological fidelity limitations):**
+- **Confirmation Bias**: Tendency to favor information that confirms pre-existing beliefs.
+- **Automation Bias**: Over-reliance on automated systems.
+- **Dunning-Kger Effect**: Miscalibration of one's own competence.
+- **Anchoring Bias**: Relying too heavily on the first piece of information offered.
+
 ## Technical Requirements
 
 ### 3. LLM Integration Specifications
@@ -48,6 +54,12 @@ Design an AI agent system using LLMs (Gemini, GPT, Claude) to simulate student p
   - Mollick's Co-Intelligence framework
   - Swiss AI ethical principles
   - People Factor human-centered approaches
+
+**Ethical Alignment:**
+- Agents must be programmed to adhere to principles of fairness, accountability, and transparency as outlined in the Swiss AI guidelines.
+- The AI Tutor agent, in particular, must be designed to avoid generating biased, harmful, or inequitable content.
+- Simulation scenarios should include ethical dilemmas to test agent alignment.
+
 - Document-specific prompting to ensure alignment
 - Regular foundation knowledge verification
 
@@ -86,6 +98,11 @@ Design an AI agent system using LLMs (Gemini, GPT, Claude) to simulate student p
 - Recognition of AI capabilities and limitations
 - Help-seeking timing and frequency
 - Learning strategy adjustments
+
+**Cognitive Bias Simulation:**
+- Agents will exhibit cognitive biases based on their profiles (e.g., a low-ability agent might show Dunning-Kruger effect).
+- The simulation will track instances of biased reasoning for analysis.
+- Scenarios will be designed to trigger specific biases to test their impact on co-thinking.
 
 **Agency Distribution Patterns:**
 - Control preference levels
@@ -176,6 +193,7 @@ class ResearchProtocol:
 - Behavioral consistency with theoretical frameworks
 - Ethical decision-making alignment with Swiss AI principles
 - Co-intelligence principles reflected in AI collaboration patterns
+- Simulation of cognitive biases must be subtle and realistic, not caricatured.
 
 **Realism Checks:**
 - Comparison with pilot data from real students
