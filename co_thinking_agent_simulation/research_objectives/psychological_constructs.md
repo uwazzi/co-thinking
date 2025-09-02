@@ -82,6 +82,11 @@ This document defines the five core psychological constructs that form the found
 - **Strategy explanation tasks**: Description of optimal human-AI collaboration approaches
 - **Learning diary entries**: Documentation of metacognitive insights gained
 
+### Skepticism and Verification
+- **Critical Stance**: The ability to question AI outputs and not take them at face value.
+- **Verification Behaviors**: Actively seeking external information to confirm or disconfirm AI suggestions.
+- **Understanding AI Fallibility**: Recognizing that AI can be confidently wrong.
+
 ### Cultural Considerations
 - **Self-reflection traditions**: Cultures with strong introspective practices may show higher baseline metacognitive awareness
 - **Authority questioning**: Cultures that encourage questioning authority may more readily assess AI limitations
