@@ -398,7 +398,7 @@ This enhanced framework represents a more mature, critical, and ethically-aware 
 
 Mollick, E. (2024). *Co-intelligence: Living and working with AI*. Portfolio.
 
-Swiss Federal Department of Foreign Affairs. (2023). *AI Swiss - Livre blanc: Artificial intelligence for Switzerland*. Swiss Confederation.
+Empowering Education Through Ethical AI. (2025). AI Swiss. https://a-i.swiss/resources
 
 The People Factor. (2023). *A human-centred approach to scaling AI tools*. [White paper].
 
